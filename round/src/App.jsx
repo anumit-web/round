@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const getUsersData = () => {
 
-      axios.get('http://localhost:3000/listofcustomers')
+      axios.get('http://localhost:3000/listofcustomers2')  /**  axios.get('http://localhost:3000/listofcustomers') */
         .then(response => {
           console.log(response.data);
           //let myData = response.data;
